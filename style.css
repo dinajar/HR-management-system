@@ -1,0 +1,52 @@
+
+:root{
+    --background:#181D31;
+    --formColor:#E6DDC4;
+    --textColor:#F0E9D2;
+}
+
+
+header {
+    width: 100%;
+    position:relative;
+    height: 100px;
+    background-color:var(--background) ;
+    
+}
+h1{
+    color: var(--textColor);
+
+
+}
+
+body {
+    background-color:var(--formColor);
+    align-items: center;
+}
+
+
+
+form {
+    background-color:var(--formColor);
+    box-shadow: var(--textColor);
+    justify-content: space-around;
+    text-align: center;
+    
+    
+   
+}
+
+
+label{
+    color: var(--color);
+   
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 100px;
+    background-color:var(--background) ;
+    
+}
