@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+    <header>
+        <h1>HR-management-system</h1>
+    </header>
+    <main>
+        <form id="formId">
+            <fieldset>
+                <label for="name"> Full name: </label>
+                <input type="text" name="name" id="name">
+
+                <br>
+                <br>
+
+                <label for="selectDep"> Department: </label>
+                <select name="selectDep" id="selectDep">
+                    <option value="">-- choose an option -- </option>
+                    <option value="Administration"> Administration </option>
+                    <option value="Marketing"> Marketing </option>
+                    <option value="Development"> Development </option>
+                    <option value="Finance"> Finance </option>
+                </select>
+                
+                <br>
+                <br>
+                
+                <label for="selectLev"> Level: </label>
+                <select name="selectLev" id="selectLev">
+                    <option value="">-- choose an option -- </option>
+                    <option value="Junior"> Junior </option> 
+                    <option value="Mid-Senior"> Mid-Senior </option>
+                    <option value="Senior"> Senior </option>
+                </select>
+                
+                <br>
+                <br>
+                
+                <label for="imgUrl"> Image url: </label>
+                <input type="text" name="imgUrl" id="imgUrl">
+                
+                <br>
+                <br>
+                
+                <input type="submit" value="submit">
+                
+            </fieldset>
+        </form>
+        <section id="secId"></section>
+    </main>
+    <footer>
+        <script src="./app.js"></script>
+    </footer>
+</body>
+</html>
